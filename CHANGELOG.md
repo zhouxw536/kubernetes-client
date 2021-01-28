@@ -22,6 +22,11 @@ _**Note**_: Breaking changes in the API
 - Classes in `io.fabric8.kubernetes.api.model.certificates` have been moved to `io.fabric8.kubernetes.api.model.certificates.v1` and `io.fabric8.kubernetes.api.model.certificates.v1beta1`
 - Classes in `io.fabric8.kubernetes.api.model.events` have been moved to `io.fabric8.kubernetes.api.model.events.v1` and `io.fabric8.kubernetes.api.model.events.v1beta1`
 
+### 5.0.2
+
+#### Improvements
+* Fix #2757: add `storage` and `served` to `Version` annotation
+
 ### 5.0.1 (2021-01-27)
 
 #### Bugs
